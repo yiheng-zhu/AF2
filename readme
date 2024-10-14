@@ -1,0 +1,9 @@
+How to run AF2 in liuzi server?
+
+[1] cd in wokdir /data/liuzi/Program/AF2/yiheng_data
+
+[2] conda activate AF2
+
+[3] python Run_AF2.py sequence_file result_dir thread_number gpu_id
+    e.g, python Run_AF2.py /data/liuzi/Program/AF2/yiheng_data/example.fasta /data/liuzi/Program/AF2/yiheng_data/case1 3 0
+    note: we should use absolute path rather relative path
